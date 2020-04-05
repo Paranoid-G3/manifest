@@ -18,7 +18,7 @@
   <remove-project name="platform/build/blueprint" />
   <project path="build/blueprint" name="AOSPA/android_build_blueprint" remote="aospa" groups="aospa" />
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" groups="aospa" >
+  <project path="build/soong" name="android_build_soong" remote="g3" groups="aospa" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
