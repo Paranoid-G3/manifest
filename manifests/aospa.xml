@@ -45,6 +45,9 @@
   <project path="hardware/pa/interfaces" name="android_hardware_pa_interfaces" remote="g3" groups="aospa" />
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="AOSPA/android_hardware_ril" remote="aospa" groups="aospa" />
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" remote="github" revision="lineage-17.1" />
+  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="github" revision="lineage-17.1" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" />
 
   <!-- Native -->
   <remove-project name="platform/art" />
