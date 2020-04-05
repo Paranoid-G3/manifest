@@ -851,4 +851,7 @@
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml"/>
 
+  <!-- msm8974 platform additions -->
+  <include name="manifests/msm8974.xml"/>
+
 </manifest>
