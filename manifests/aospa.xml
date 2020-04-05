@@ -29,7 +29,7 @@
   <project path="device/generic/goldfish" name="AOSPA/android_device_generic_goldfish" remote="aospa" groups="aospa" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
-  <project path="device/pa/sepolicy" name="AOSPA/android_device_pa_sepolicy" remote="aospa" groups="aospa" />
+  <project path="device/pa/sepolicy" name="android_device_pa_sepolicy" remote="g3" groups="aospa" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/bootctrl"/>
