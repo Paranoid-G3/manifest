@@ -28,6 +28,10 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
 
+  <remote name="g3"
+           fetch="https://github.com/Paranoid-G3"
+           revision="quartz" />
+
   <default revision="refs/tags/LA.UM.8.2.1.r1-04200-sdm660.0"
            remote="caf"
            sync-j="4"
