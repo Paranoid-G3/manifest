@@ -6,4 +6,5 @@
 
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-17.1" />
 
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-17.1" />
 </manifest>
